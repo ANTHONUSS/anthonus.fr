@@ -215,3 +215,23 @@ footer a {
 }
 
 /* ----------------- RESPONSIVE ----------------- */
+@media screen and (max-width: 840px) {
+    br {
+        margin-bottom: 15px;
+    }
+
+    /* ----------------- MAIN ----------------- */
+    .tile {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
