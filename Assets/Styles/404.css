@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Rammetto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+    text-align: center;
+
+    animation: bgColor 10s infinite;
+}
+
+main {
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 8rem;
+}
+
+h2 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 4rem;
+    margin-bottom: 50px;
+}
+
+.rgb {
+    font-family: 'Rammetto One', cursive;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    animation: skillIssue 5s infinite;
+}
+
+video {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+@keyframes skillIssue {
+    0% { color: red; }
+    5% { color: orange; }
+    10% { color: yellow; }
+    15% { color: green; }
+    20% { color: cyan; }
+    25% { color: blue; }
+    30% { color: violet; }
+    35% { color: magenta; }
+    40% { color: lime; }
+    45% { color: pink; }
+    50% { color: teal; }
+    55% { color: navy; }
+    60% { color: purple; }
+    65% { color: brown; }
+    70% { color: gold; }
+    75% { color: coral; }
+    80% { color: crimson; }
+    85% { color: indigo; }
+    90% { color: olive; }
+    95% { color: maroon; }
+    100% { color: red; }
+}
+
+@keyframes bgColor {
+    0% { background-color: #2E1A1A; }
+    5% { background-color: #1A2E2E; }
+    10% { background-color: #3A2E1A; }
+    15% { background-color: #2E1A2E; }
+    20% { background-color: #1A2E1A; }
+    25% { background-color: #4B1A2E; }
+    30% { background-color: #1A1A4B; }
+    35% { background-color: #2E3B2E; }
+    40% { background-color: #4B2E1A; }
+    45% { background-color: #2E1A4B; }
+    50% { background-color: #2E2E2E; }
+    55% { background-color: #4B3A1A; }
+    60% { background-color: #1A1A2E; }
+    65% { background-color: #4B2E2E; }
+    70% { background-color: #2E1A1A; }
+    75% { background-color: #4B1A1A; }
+    80% { background-color: #2E1A4B; }
+    85% { background-color: #4B4B2E; }
+    90% { background-color: #2E1A66; }
+    95% { background-color: #2E1A1A; }
+    100% { background-color: #2E1A1A; }
+}
