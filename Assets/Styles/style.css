@@ -52,7 +52,7 @@ br {
 }
 
 /* ----------------- HEADER ----------------- */
-header {;
+header {
     position: fixed;
 
     height: 75px;
