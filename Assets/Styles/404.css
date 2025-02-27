@@ -36,8 +36,6 @@ h2 {
 
 .rgb {
     font-family: 'Rammetto One', cursive;
-    font-size: 4rem;
-    margin-bottom: 50px;
     animation: skillIssue 5s infinite;
 }
 
@@ -91,6 +89,30 @@ video {
     80% { background-color: #2E1A4B; }
     85% { background-color: #4B4B2E; }
     90% { background-color: #2E1A66; }
-    95% { background-color: #2E1A1A; }
+    95% { background-color: #2e1a2c; }
     100% { background-color: #2E1A1A; }
+}
+
+@media screen and (max-width: 840px) {
+    video {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    video {
+        width: 100%;
+    }
 }
