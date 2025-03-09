@@ -36,6 +36,12 @@ h2 {
     margin-bottom: 25px;
 }
 
+h3 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
 p {
     font-size: 1.2rem;
 }
@@ -156,9 +162,18 @@ section {
     flex-direction: column;
 
     border-radius: 10px;
+
+    transition: all 0.5s ease-out;
 }
 
-.tile li:last-child {
+.tile:hover {
+    backdrop-filter: blur(100px);
+    box-shadow: var(--main-color) 0 0 20px;
+
+    transition: all 0.5s ease-out;
+}
+
+.tile p {
     justify-content: center;
 }
 
@@ -173,20 +188,8 @@ section {
 }
 
 .tile a {
-    font-family: 'Rammetto One', cursive;
-    font-size: 2rem;
-    margin-bottom: 30px;
-
     color: var(--font-color);
-    text-decoration: underline;
-
-    transition: color 0.1s ease-in-out;
-}
-
-.tile a:hover {
-    color: rgb(230, 129, 225);
-
-    transition: color 0.1s ease-in-out;
+    text-decoration: none;
 }
 
 /* ----------------- FOOTER ----------------- */
