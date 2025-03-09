@@ -240,6 +240,10 @@ footer h4 {
     margin-bottom: 10px;
 }
 
+footer ul {
+    list-style: none;
+}
+
 footer li {
     margin: 5px;
 }
