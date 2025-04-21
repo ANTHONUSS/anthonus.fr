@@ -1,15 +1,15 @@
 window.addEventListener("scroll", function() {
     let header = document.getElementById("header");
     let footer = document.getElementById("footer");
-    let accueilH1 = document.getElementById("accueil-h1");
+    let accueilIMG = document.getElementById("accueil-img");
     
-    let targetRect = accueilH1.getBoundingClientRect();
-    let isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight;
+    let targetRect = accueilIMG.getBoundingClientRect();
+    let isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight-100;
 
     if(isAtBottom) {
         footer.style.transform = "translateY(-200px)";
     }else {
-        if (targetRect.bottom <= 0) {
+        if (targetRect.bottom - targetRect.height/2 <= 0) {
             header.style.transform = "translateY(110px)";
             footer.style.transform = "translateY(-50px)";
         } else {
