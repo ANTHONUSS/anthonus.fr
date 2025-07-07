@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6bb2b24-9ed8-4a6f-84af-5e81eaa25c22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ANTHONUS-bandicoot-V2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/JChatBot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Projects/JChatBot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/anthonus-bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Projects/anthonus-bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2z567PetkgDjlFBuGQbZTyXPXEC" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -36,9 +30,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "G:/Mon Drive/Programmation/Java/Autre",
+    "git-widget-placeholder": "v2",
+    "last_opened_file_path": "C:/Users/ANTHONUS/MyFolder/Projets/anthonus.fr/site",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750514268169</updated>
       <workItem from="1750514269704" duration="1211000" />
-      <workItem from="1751008421861" duration="1094000" />
+      <workItem from="1751008421861" duration="1644000" />
+      <workItem from="1751885314240" duration="15000" />
     </task>
     <servers />
   </component>
