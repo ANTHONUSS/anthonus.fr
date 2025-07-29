@@ -52,10 +52,81 @@ br {
 
 .acrylic-background {
     background-color: var(--secondary-color);
-    box-shadow: rgba(0, 0, 0, 0.41) 0 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 0 20px;
     backdrop-filter: blur(30px);
 }
 
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    text-decoration: none;
+
+    box-shadow: var(--main-color) 0 0 10px;
+
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover {
+    box-shadow: var(--main-color) 0 0 15px;
+    scale: 1.01;
+
+    transition: all 0.2s ease-out;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+
+    width: 30%;
+    min-width: 350px;
+    margin: 10px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    transition: all 0.2s ease-out;
+}
+
+.tile:hover {
+    backdrop-filter: blur(100px);
+    box-shadow: var(--main-color) 0 0 20px;
+    scale: 1.01;
+
+    transition: all 0.2s ease-out;
+}
+
+.tile p {
+    justify-content: center;
+}
+
+.tile img {
+    width: 100%;
+    height: 50%;
+
+    margin-bottom: 20px ;
+    border-radius: 10px;
+
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tile a {
+    color: var(--font-color);
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
 
 /* ----------------- BACKGROUND ----------------- */
 .video-container {
@@ -137,12 +208,18 @@ header img {
 
 /* ----------------- MAIN ----------------- */
 section {
-    margin-bottom: 200px;
-    border-radius: 10px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-#about {
+section div {
     padding: 20px;
+    border-radius: 10px;
+    width: 100%;
 }
 
 #projects ul {
@@ -152,54 +229,21 @@ section {
     align-items: stretch;
 }
 
-.tile {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
+#discord div a {
+    margin-top: 20px;
 
-
-    width: 30%;
-    min-width: 350px;
-    margin: 10px;
-    padding: 20px;
-
-    border-radius: 10px;
-
-    transition: all 0.5s ease-out;
+    background-color: rgb(119, 133, 204);
 }
 
-.tile:hover {
-    backdrop-filter: blur(100px);
-    box-shadow: var(--main-color) 0 0 20px;
-
-    transition: all 0.5s ease-out;
-}
-
-.tile p {
-    justify-content: center;
-}
-
-.tile img {
-    width: 100%;
-    height: 50%;
-
-    margin-bottom: 20px ;
-    border-radius: 10px;
-
-    overflow: hidden;
-    object-fit: cover;
-    object-position: center;
-}
-
-.tile a {
-    color: var(--font-color);
-    text-decoration: none;
-
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+#discord div a:before {
+    content: '';
+    display: inline-block;
+    vertical-align: -6px;
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    background: url('https://cdn.jsdelivr.net/gh/edent/SuperTinyIcons/images/svg/discord.svg') no-repeat center center;
+    background-size: contain;
 }
 
 /* ----------------- FOOTER ----------------- */
