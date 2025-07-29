@@ -305,13 +305,17 @@ footer li a:hover {
 
 /* ----------------- RESPONSIVE ----------------- */
 @media screen and (max-width: 840px) {
+    main {
+        padding: 20px;
+    }
     br {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     /* ----------------- MAIN ----------------- */
     .tile {
-        width: 80%;
+        width: 90%;
+        min-width: unset;
     }
 }
 
