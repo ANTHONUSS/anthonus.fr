@@ -7,7 +7,7 @@ window.addEventListener("scroll", function() {
     let isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight-100;
 
     if(isAtBottom) {
-        footer.style.transform = "translateY(-200px)";
+        footer.style.transform = "translateY(-300px)";
     }else {
         if (targetRect.bottom - targetRect.height/2 <= 0) {
             header.style.transform = "translateY(110px)";

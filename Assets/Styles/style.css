@@ -233,7 +233,7 @@ section div {
 }
 
 #projects {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 
@@ -242,7 +242,7 @@ section div {
 footer {
     border-radius: 20px 20px 0 0;
     width: 96%;
-    height: 200px;
+    height: 300px;
 
     position: fixed;
 
@@ -267,7 +267,7 @@ footer p {
 }
 
 footer div {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 footer h4 {
@@ -289,6 +289,10 @@ footer li a:hover {
     text-decoration: underline;
 
     cursor: pointer;
+}
+
+footer div div {
+    margin-top: 0px;
 }
 
 /* ----------------- RESPONSIVE ----------------- */
