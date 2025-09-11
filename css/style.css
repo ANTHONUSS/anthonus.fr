@@ -59,6 +59,7 @@ br {
     backdrop-filter 0.2s ease-out,
     scale 0.2s ease-out;
 }
+
 .acrylic-background-hover:hover {
     backdrop-filter: blur(100px);
     box-shadow: var(--main-color) 0 0 20px;
@@ -73,21 +74,19 @@ br {
     display: inline-block;
     padding: 10px 20px;
 
-    background-color: var(--secondary-color);
-    color: var(--font-color);
     text-decoration: none;
+    color: var(--font-color);
 
     box-shadow: var(--main-color) 0 0 10px;
 
     border-radius: 20px;
     transition: all 0.2s ease-out;
+}
+.button:hover {
+    box-shadow: var(--main-color) 0 0 15px;
+    transform: translateY(-2px);
 
-    :hover {
-        box-shadow: var(--main-color) 0 0 15px;
-        scale: 1.01;
-
-        transition: all 0.2s ease-out;
-    }
+    transition: all 0.2s ease-out;
 }
 
 .tile {
@@ -190,6 +189,7 @@ header {
         border-radius: 100%;
     }
 }
+
 header.acrylic-background {
     transition: transform 0.5s ease-in-out,
     box-shadow 0.2s ease-out,
@@ -219,6 +219,10 @@ header.acrylic-background {
 }
 
 /* ----------------- MAIN ----------------- */
+main {
+    margin-bottom: 50px;
+}
+
 section {
     min-height: 100vh;
 
@@ -241,8 +245,9 @@ section {
     }
 }
 
-#projects {
-    margin-bottom: 300px;
+#textWorld-button {
+    margin-top: 20px;
+    background-color: rgb(70, 70, 70);
 }
 
 
@@ -302,6 +307,7 @@ footer {
         margin-top: 0
     }
 }
+
 footer.acrylic-background {
     transition: transform 0.5s ease-in-out,
     box-shadow 0.2s ease-out,
@@ -315,6 +321,7 @@ footer.acrylic-background {
     main {
         padding: 20px;
     }
+
     br {
         margin-bottom: 30px;
     }

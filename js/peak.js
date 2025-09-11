@@ -4,7 +4,7 @@ window.addEventListener("scroll", function() {
     let accueilIMG = document.getElementById("accueil-img");
 
     let targetRect = accueilIMG.getBoundingClientRect();
-    let isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100;
+    let isAtBottom = (window.innerHeight + window.scrollY) >= document.body.offsetHeight;
 
     if (isAtBottom) {
         footer.style.transform = "translateY(-300px)";
