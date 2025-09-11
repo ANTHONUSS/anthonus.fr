@@ -55,14 +55,18 @@ br {
     box-shadow: rgba(0, 0, 0, 0.4) 0 0 20px;
     backdrop-filter: blur(30px);
 
-    transition: all 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out,
+    backdrop-filter 0.2s ease-out,
+    scale 0.2s ease-out;
 }
 .acrylic-background-hover:hover {
     backdrop-filter: blur(100px);
     box-shadow: var(--main-color) 0 0 20px;
     scale: 1.01;
 
-    transition: all 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out,
+    backdrop-filter 0.2s ease-out,
+    scale 0.2s ease-out;
 }
 
 .button {
@@ -173,7 +177,7 @@ header {
 
     border-radius: 20px;
 
-    transition: transform 0.5s ease-in-out;
+    transform: translateY(-100px);
 
     h1 {
         font-size: 2rem;
@@ -185,6 +189,13 @@ header {
         margin-right: 20px;
         border-radius: 100%;
     }
+}
+header.acrylic-background {
+    transition: transform 0.5s ease-in-out,
+    box-shadow 0.2s ease-out,
+    backdrop-filter 0.2s ease-out,
+    scale 0.2s ease-out;
+    will-change: transform;
 }
 
 #accueil {
@@ -250,7 +261,7 @@ footer {
     display: flex;
     flex-direction: column;
 
-    transition: transform 0.5s ease-in-out;
+    transform: translateY(50px);
 
     a {
         color: var(--font-color);
@@ -290,6 +301,13 @@ footer {
     div div {
         margin-top: 0
     }
+}
+footer.acrylic-background {
+    transition: transform 0.5s ease-in-out,
+    box-shadow 0.2s ease-out,
+    backdrop-filter 0.2s ease-out,
+    scale 0.2s ease-out;
+    will-change: transform;
 }
 
 /* ----------------- RESPONSIVE ----------------- */
