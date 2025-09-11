@@ -22,7 +22,6 @@
     <link rel="icon" href="https://avatar-cyan.vercel.app/api/pfp/722086214949404682/superbigimage">
 
     <link rel="stylesheet" href="Assets/Styles/style.css">
-    <script src="Assets/Scripts/peak.js" defer></script>
 </head>
 
 <body>
@@ -49,7 +48,7 @@
     <section id="about">
         <h2>À propos de moi</h2>
         <div class="acrylic-background">
-            <p>Je m'appelle Anthony, j'ai 20 ans.<br>
+            <p>Je m'appelle Anthony, j'ai <span id="age"></span> ans.<br>
                 Je suis étudiant en informatique de deuxième année à Lyon1 et je suis un passionné d'informatique.<br>
                 J'aime tout dans l'informatique, Commençant par le développement web / applications, aux petits programmes
                 marrants, passant par des bots Discord, des petits jeux vidéos ou même de l'IA, jusqu'aux configurations et
@@ -179,7 +178,7 @@
 </main>
 
 <footer id="footer" class="acrylic-background">
-    <p>© 2025 ANTHONUS - Made with <a href="Pages/mogus.html">ඞ</a></p>
+    <p>© <span id="copyrightYear"></span> ANTHONUS - Made with <a href="Pages/mogus.html">ඞ</a></p>
     <div>
         <h4>Contacts :</h4>
         <ul>
@@ -196,5 +195,7 @@
     </div>
 </footer>
 
+<script src="Assets/Scripts/peak.js" defer></script>
+<script src="Assets/Scripts/calculs.js"></script>
 </body>
 </html>
