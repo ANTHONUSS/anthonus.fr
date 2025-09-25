@@ -359,6 +359,14 @@ footer.acrylic-background {
 
     overflow: hidden;
 
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+
+        margin-bottom: 10px;
+    }
+
     > section {
         width: auto;
         height: auto;
@@ -381,24 +389,39 @@ footer.acrylic-background {
 
         padding: 5mm;
 
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 20px 20px 0;
 
         background: black url('/assets/images/CV/ocean_temple.png') no-repeat 57% center;
 
         * {
             color: white;
             text-decoration: none;
+
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            height: 100%;
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
         }
 
         h1 {
             color: white;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             margin-bottom: 20px;
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             margin-bottom: 10px;
+
+            text-decoration: underline;
         }
 
         p {
@@ -424,29 +447,48 @@ footer.acrylic-background {
         #mail::before {
             background-image: url("/assets/images/CV/mail.svg");
         }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            gap: 5px;
+
+            list-style: none;
+
+            li {
+                font-size: 1rem;
+                width: 100%;
+                text-align: left;
+                padding-left: 15px;
+            }
+            li::before {
+                content: "-";
+                position: absolute;
+                display: inline-block;
+                margin-right: 4px;
+                transform: translateX(-15px);
+            }
+            li:first-child {
+                margin-top: 10px;
+                text-align: center;
+                padding-left: 0;
+            }
+            li:first-child::before {
+                content: "";
+            }
+
+        }
+
+
     }
 
     #body {
         height: 100%;
         width: 70%;
-    }
-}
-
-@page {
-    size: A4;
-    margin: 0;
-}
-
-@media print {
-    body {
-        margin: 0;
-    }
-    #page {
-        box-shadow: none;
-        margin: 0;
-        width: 100%;
-        height: auto;
-        page-break-after: always;
     }
 }
 
