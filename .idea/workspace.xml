@@ -5,10 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6bb2b24-9ed8-4a6f-84af-5e81eaa25c22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/CustomAssistant.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/CustomAssistant.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/DiscordBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/DiscordBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/FindTheLuigi.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/FindTheLuigi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/Github.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/Github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/HappyVirus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/HappyVirus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/LOGs.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/LOGs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/Noob-Bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/Noob-Bot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/PickUpTools.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/PickUpTools.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/SymLinkCreator.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/SymLinkCreator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/anthonus-bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/anthonus-bot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Projects/textworld.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Projects/textworld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.audio.position.worklet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.audio.worklet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.pck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Jeu/index.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/mogus.html" beforeDir="false" afterPath="$PROJECT_DIR$/mogus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/peak.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/peak.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,35 +67,57 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.Start Server.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ANTHONUS/MyFolder/Projets/anthonus.fr/site/Assets/Images/Projects",
+    "last_opened_file_path": "C:/Users/ANTHONUS/MyFolder/Projets/anthonus.fr/site/assets/images/Projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\Projects" />
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\Assets\Images\CV" />
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\Assets\Images\Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\CV" />
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site" />
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\Assets\Images\Projects" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Start Server" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="python -m http.server 8080" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="powershell.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
       </set>
     </attachedChunks>
   </component>
@@ -91,7 +139,9 @@
       <workItem from="1756071942959" duration="507000" />
       <workItem from="1756072594387" duration="546000" />
       <workItem from="1756553567641" duration="442000" />
-      <workItem from="1757612198866" duration="6848000" />
+      <workItem from="1757612198866" duration="6877000" />
+      <workItem from="1758045465552" duration="34000" />
+      <workItem from="1758810818700" duration="5574000" />
     </task>
     <servers />
   </component>

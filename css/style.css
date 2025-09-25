@@ -132,6 +132,7 @@ br {
     }
 }
 
+
 /* ----------------- BACKGROUND ----------------- */
 .video-container {
     position: fixed;
@@ -250,6 +251,12 @@ section {
     background-color: rgb(70, 70, 70);
 }
 
+#CV-button {
+    margin-top: 20px;
+    background-color: #FFF;
+    color : black;
+}
+
 
 /* ----------------- FOOTER ----------------- */
 footer {
@@ -314,6 +321,133 @@ footer.acrylic-background {
     backdrop-filter 0.2s ease-out,
     scale 0.2s ease-out;
     will-change: transform;
+}
+
+/* ----------------- CV-SPECIFIC ----------------- */
+#CV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#CV_bg_image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100vh;
+    z-index: -1;
+
+    filter: blur(5px);
+
+}
+
+#page {
+    width: 21cm;
+    height: 29.7cm;
+    margin: auto;
+    padding: 5mm 5mm 5mm 0;
+    background: white;
+    box-shadow: 0 0 10px 2px black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+    > section {
+        width: auto;
+        height: auto;
+        min-height: auto;
+        max-height: none;
+        min-width: auto;
+        max-width: none;
+
+        color: black;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #side {
+        height: 100%;
+        width: 30%;
+
+        padding: 5mm;
+
+        border-radius: 0 10px 10px 0;
+
+        background: black url('/assets/images/CV/ocean_temple.png') no-repeat 57% center;
+
+        * {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: white;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 15px;
+
+            align-self: flex-start;
+        }
+
+        p::before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            background-size: contain;
+            vertical-align: middle;
+            transform: translateY(-1.625px);
+        }
+        #phone::before {
+            background-image: url("/assets/images/CV/phone.svg");
+        }
+        #mail::before {
+            background-image: url("/assets/images/CV/mail.svg");
+        }
+    }
+
+    #body {
+        height: 100%;
+        width: 70%;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+    #page {
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        page-break-after: always;
+    }
 }
 
 /* ----------------- RESPONSIVE ----------------- */
