@@ -1,10 +1,47 @@
 /* ----------------- GENERAL ----------------- */
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Rammetto+One&display=swap');
+@font-face {
+    font-family: 'Rammetto One';
+    src: url('/assets/fonts/RammettoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Change One';
+    src: url('/assets/fonts/ChangaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('/assets/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('/assets/fonts/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Rounded';
+    src: url('/assets/fonts/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
     --main-color: #111;
     --secondary-color: rgba(84, 121, 152, 0.1);
     --font-color: #FFFFFF;
+
+    --font-title: 'Rammetto One';
+    --font-text: 'Helvetica';
+    --font-special: 'Helvetica Rounded';
 }
 
 * {
@@ -12,7 +49,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'ABeeZee', sans-serif;
+    font-family: var(--font-text), sans-serif;
 }
 
 body {
@@ -26,18 +63,18 @@ main {
 }
 
 h1 {
-    font-family: 'Rammetto One', cursive;
+    font-family: var(--font-title), cursive;
     font-size: 3.5rem;
 }
 
 h2 {
-    font-family: 'Rammetto One', cursive;
+    font-family: var(--font-title), cursive;
     font-size: 2.5rem;
     margin-bottom: 25px;
 }
 
 h3 {
-    font-family: 'Rammetto One', cursive;
+    font-family: var(--font-title), cursive;
     font-size: 2rem;
     margin-bottom: 25px;
 }
@@ -290,7 +327,7 @@ footer {
     }
 
     h4 {
-        font-family: 'Rammetto One', cursive;
+        font-family: var(--font-title), cursive;
         font-size: 1.5rem;
 
         margin-bottom: 10px;
@@ -326,6 +363,7 @@ footer.acrylic-background {
 /* ----------------- CV-SPECIFIC ----------------- */
 #CV {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -342,6 +380,14 @@ footer.acrylic-background {
 
     filter: blur(5px);
 
+}
+
+#printCV {
+    margin: 20px 0;
+    background-color: #FFF;
+    color : black;
+
+    border: none;
 }
 
 #page {
@@ -391,7 +437,8 @@ footer.acrylic-background {
 
         border-radius: 0 20px 20px 0;
 
-        background: black url('/assets/images/CV/ocean_temple.png') no-repeat 57% center;
+        background: black url('/assets/images/CV/ps2.png') no-repeat center center;
+        background-size: cover;
 
         * {
             color: white;
@@ -408,7 +455,7 @@ footer.acrylic-background {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-evenly;
         }
 
         h1 {
@@ -418,10 +465,12 @@ footer.acrylic-background {
         }
 
         h2 {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             margin-bottom: 10px;
 
             text-decoration: underline;
+
+            font-family: var(--font-special), sans-serif;
         }
 
         p {
@@ -474,21 +523,135 @@ footer.acrylic-background {
             }
             li:first-child {
                 margin-top: 10px;
-                text-align: center;
+                text-align: left;
                 padding-left: 0;
             }
             li:first-child::before {
                 content: "";
             }
-
         }
-
-
     }
 
     #body {
         height: 100%;
         width: 70%;
+
+        h1 {
+            color: black;
+            font-size: 2.7rem;
+
+            line-height: 3.5rem;
+
+            margin: 30px 0 20px 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            align-self: flex-start;
+
+            text-decoration: underline;
+
+            font-family: var(--font-special), sans-serif;
+        }
+
+        ul {
+            width: 100%;
+            height: 60%;
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: stretch;
+
+            margin-bottom: 20px;
+
+
+            li {
+                width: 45%;
+
+                border-radius: 10px;
+
+                padding: 10px;
+                margin-bottom: 20px;
+
+                list-style: none;
+
+                background-image: url("/assets/images/CV/ruins_tree_night.png");
+
+                h3 {
+                    font-size: 1.2rem;
+                    margin-bottom: 10px;
+
+                    font-family: var(--font-title), sans-serif;
+
+                    color: white;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100px;
+
+                    margin-bottom: 10px;
+
+                    border-radius: 10px;
+
+                    overflow: hidden;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                p {
+                    font-size: 0.8rem;
+
+                    text-align: justify;
+
+                    color: white;
+                }
+            }
+
+            li:nth-child(1) {
+                background-position: 50% 60%;
+            }
+            li:nth-child(2) {
+                background-position: 50% 70%;
+            }
+            li:nth-child(3) {
+                background-position: 50% 50%;
+
+                img {
+                    object-position: bottom;
+                }
+            }
+            li:nth-child(4) {
+                background-position: 60% 60%;
+            }
+        }
+
+        ol {
+            width: 100%;
+            height: auto;
+
+            list-style: none;
+
+            li {
+                font-size: 1.1rem;
+                margin-bottom: 10px;
+                padding-left: 40px;
+                position: relative;
+
+                text-align: justify;
+            }
+            li::before {
+                content: "-";
+                position: absolute;
+                display: inline-block;
+                transform: translateX(-15px);
+            }
+
+        }
     }
 }
 
