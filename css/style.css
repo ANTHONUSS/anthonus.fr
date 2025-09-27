@@ -35,8 +35,8 @@
 }
 
 :root {
-    --main-color: #111;
-    --secondary-color: rgba(84, 121, 152, 0.1);
+    --main-color: rgb(36, 49, 66);
+    --main-color-alpha: rgba(84, 121, 152, 0.1);
     --font-color: #FFFFFF;
 
     --font-title: 'Rammetto One';
@@ -88,7 +88,7 @@ br {
 }
 
 .acrylic-background {
-    background-color: var(--secondary-color);
+    background-color: var(--main-color-alpha);
     box-shadow: rgba(0, 0, 0, 0.4) 0 0 20px;
     backdrop-filter: blur(30px);
 
@@ -99,7 +99,7 @@ br {
 
 .acrylic-background-hover:hover {
     backdrop-filter: blur(100px);
-    box-shadow: var(--main-color) 0 0 20px;
+    box-shadow: black 0 0 20px;
     scale: 1.01;
 
     transition: box-shadow 0.2s ease-out,
@@ -114,13 +114,13 @@ br {
     text-decoration: none;
     color: var(--font-color);
 
-    box-shadow: var(--main-color) 0 0 10px;
+    box-shadow: black 0 0 10px;
 
     border-radius: 20px;
     transition: all 0.2s ease-out;
 }
 .button:hover {
-    box-shadow: var(--main-color) 0 0 15px;
+    box-shadow: black 0 0 15px;
     transform: translateY(-2px);
 
     transition: all 0.2s ease-out;
