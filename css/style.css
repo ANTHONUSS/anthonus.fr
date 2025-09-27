@@ -181,7 +181,7 @@ br {
     z-index: -1;
 
     video {
-        width: 100vw;
+        width: 100dvw;
         height: 100dvh;
         object-fit: cover;
         display: block;
