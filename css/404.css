@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Rammetto+One&display=swap');
+@font-face {
+    font-family: 'Rammetto One';
+    src: url('/assets/fonts/RammettoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Rammetto One', sans-serif;
+}
+
+html, body {
+    height: 100%;  /* force le body à prendre toute la hauteur de la fenêtre */
 }
 
 body {
@@ -15,32 +23,40 @@ body {
 }
 
 main {
-    padding: 50px;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+}
+
+#title {
+    width: 100%;
 }
 
 h1 {
-    font-family: 'Rammetto One', cursive;
-    font-size: 8rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-family: 'Rammetto One', cursive;
-    font-size: 4rem;
-    margin-bottom: 50px;
+    font-size: 3rem;
 }
 
 .rgb {
-    font-family: 'Rammetto One', cursive;
     animation: skillIssue 5s infinite;
 }
 
-video {
-    width: 50%;
+#rickRoll {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    margin: 20px 0;
+}
+
+#rickRoll video {
+    height: 100%;
+    width: 70%;
     object-fit: cover;
     border-radius: 50px;
 }
@@ -93,26 +109,16 @@ video {
     100% { background-color: #2E1A1A; }
 }
 
-@media screen and (max-width: 840px) {
-    video {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 412px) {
-    main {
-        padding: 20px;
-    }
-
+@media screen and (max-width: 600px) {
     h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
         font-size: 3rem;
     }
 
-    video {
-        width: 100%;
+    h2 {
+        font-size: 2rem;
+    }
+
+    #rickRoll video {
+        width: 95%;
     }
 }
