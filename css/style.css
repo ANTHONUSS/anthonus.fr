@@ -360,7 +360,7 @@ footer.acrylic-background {
     will-change: transform;
 }
 
-/* ----------------- CV-SPECIFIC ----------------- */
+/* ----------------- cv-SPECIFIC ----------------- */
 #CV {
     display: flex;
     flex-direction: column;
@@ -437,7 +437,7 @@ footer.acrylic-background {
 
         border-radius: 0 20px 20px 0;
 
-        background: black url('/assets/images/CV/ps2.png') no-repeat center center;
+        background: black url('/assets/images/cv/ps2.png') no-repeat center center;
         background-size: cover;
 
         * {
@@ -491,10 +491,10 @@ footer.acrylic-background {
             transform: translateY(-1.625px);
         }
         #phone::before {
-            background-image: url("/assets/images/CV/phone.svg");
+            background-image: url("/assets/images/cv/phone.svg");
         }
         #mail::before {
-            background-image: url("/assets/images/CV/mail.svg");
+            background-image: url("/assets/images/cv/mail.svg");
         }
 
         ul {
@@ -579,7 +579,7 @@ footer.acrylic-background {
 
                 list-style: none;
 
-                background-image: url("/assets/images/CV/ruins_tree_night.png");
+                background-image: url("/assets/images/cv/ruins_tree_night.png");
 
                 h3 {
                     font-size: 1.2rem;

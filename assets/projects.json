@@ -1,0 +1,68 @@
+[
+  {
+    "link": "/ANTHONUS-bot",
+    "title": "ANTHONUS-bot",
+    "image": "anthonus-bot.png",
+    "description": "ANTHONUS-bot est un bot discord que j'ai créé pour mes serveurs Discord.<br>Son but n'est pas d'être rendu public à l'usage, puisqu'il a principalement été créé pour un usage personnel et pour mes amis.<br>Il possède des commandes fun et troll, une intégration d'IA, une fonction de téléchargement de vidéo Youtube ainsi qu'une gestion complète de musiques dans les salons vocaux.<br>Il a été fait en Java avec la bibliothèque JDA, les API de Google, Youtube, Reddit et OpenAI."
+  },
+  {
+    "link": "/Noob-bot",
+    "title": "Noob-Bot",
+    "image": "Noob-Bot.png",
+    "description": "Noob-Bot est un bot discord créé pour mon Serveur Discord, Noob Nation.<br>Il possède des fonctionnalités de modération, d'accueil des nouveaux utilisateurs, ainsi qu'un système de niveaux et de récompenses.<br>Il a été fait en Java avec la bibliothèque JDA, et utilise une base de données SQLite pour stocker les données des utilisateurs et des serveurs."
+  },
+  {
+    "link": "/HappyVirus",
+    "title": "HappyVirus",
+    "image": "HappyVirus.png",
+    "description": "HappyVirus n’a rien d’un virus. C’est une application Java qui affiche aléatoirement des images de personnages fictifs avec des comportements variés, souvent inspirés de memes.<br>Ce projet a été initialement créé pour tester les fenêtres, la transparence, ainsi que l’affichage d’images et de sons avec Java Swing, puis réécrit avec JavaFX afin d’offrir un rendu de meilleure qualité."
+  },
+  {
+    "link": "/TextWorld",
+    "title": "TextWorld",
+    "image": "textworld.png",
+    "description": "TextWorld est une page que j'ai développé moi-même, inspiré de YourWorldOfText. Accessible sur textworld.anthonus.fr, elle permet d'écrire en temps réel avec d'autres personnes sur une grande carte de texte.<br>Elle a été faite en HTML, CSS et JavaScript, avec un backend java, utilisant des WebSockets pour la communication en temps réel et une base de donnée SQLite pour stocker les caractères."
+  },
+  {
+    "link": "/PickUpTools",
+    "title": "PickUpTools",
+    "image": "PickUpTools.gif",
+    "description": "PickUpTools est un mod Minecraft client. Son but est, quand le joueur s'accroupit et effectue un clic molette, de pouvoir équiper l'outil le plus adapté pour casser le bloc visé.<br>Le mod est disponible sur Modrinth sous le nom de PickUpTools."
+  },
+  {
+    "link": "/CustomAssistant",
+    "title": "Custom Assistant",
+    "image": "CustomAssistant.gif",
+    "description": "Custom assistant est une application de bureau qui permet d'avoir un assistant vocal personnalisable.<br>Il fonctionne avec ChatGPT et permet de lui donner une personnalité, lui donner une voix personnalisée, recherches web, etc.<br>Il est fait en Java, avec les api nécéssaires pour son fonctionnement en vocal et communication avec ChatGPT."
+  },
+  {
+    "link": "/FindTheLuigi",
+    "title": "FindTheLuigi",
+    "image": "FindTheLuigi.png",
+    "description": "Ce projet est un mini-projet de jeu fun à rapidement faire en Java.<br>Il s'agit d'une copie simplifiée du mini jeu de New Super Mario Bros. sur Nintendo DS où il faut trouver un certain personnage parmi les autres.<br>Il a été fait en Java avec Swing pour l'interface graphique."
+  },
+  {
+    "link": "/LOGs",
+    "title": "LOGs",
+    "image": "LOGs.png",
+    "description": "LOGs est une library Java qui permet de gérer de façon plus simple les logs dans un programme.<br>Elle supporte plusieurs niveaux de logs entièrement personnalisables, et une gestion de la couleur, soulignage, gras, couleur de fond, italique, etc. pour chacun de ces niveaux.<br>Elle a pour but de rester simple d'utilisation sans trop de fonctionnalités, mais possède l'essentiel pour gérer les logs."
+  },
+  {
+    "link": "/SymLinkCreator",
+    "title": "SymLinkCreator",
+    "image": "SymLinkCreator.png",
+    "description": "SymLinkCreator est une application Java qui permet de créer des liens symboliques sur Windows facilement.<br>Il suffit de sélectionner le dossier ou fichier source ainsi que la cible, et le programme créera un lien symbolique entre ces deux-ci.<br>Il a été fait en Java avec JavaFX pour l'interface graphique."
+  },
+  {
+    "link": "/DiscordBackground",
+    "title": "DiscordBackground",
+    "image": "DiscordBackground.png",
+    "description": "Petit theme Discord en CSS qui fonctionne avec Vencord (et très probablement d'autres modifications de Discord) qui permet de rajouter un fond d'écran aux discussions.<br>L'image est chargée depuis un URL, et peut être modifiée à tout moment, avec l'opacité et le flou de l'image."
+  },
+  {
+    "link": "?tab=repositories",
+    "title": "Autres projets",
+    "image": "Github.png",
+    "description": "Tous mes incroyables projets ne sont pas listés ici, mais vous pouvez les retrouver sur mon GitHub.<br>N'hésitez pas à aller jeter un coup d'œil !"
+  }
+]
