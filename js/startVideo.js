@@ -1,4 +1,4 @@
-const video = document.getElementById('rickRoll');
+const video = document.getElementById('rickRollVideo');
 
 window.addEventListener('load', () => {
     video.play().catch(err => {
