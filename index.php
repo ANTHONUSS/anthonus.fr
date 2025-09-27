@@ -1,3 +1,5 @@
+<?php include __DIR__ . "/phpModules/calculs.php" ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -49,7 +51,7 @@
     <section id="about">
         <h2>À propos de moi</h2>
         <div class="acrylic-background">
-            <p>Je m'appelle Anthony, j'ai <span id="age"></span> ans.<br>
+            <p>Je m'appelle Anthony, j'ai <?= calcAge() ?> ans.<br>
                 Je suis étudiant en informatique de deuxième année à Lyon1 et je suis un passionné d'informatique.<br>
                 J'aime tout dans l'informatique, Commençant par le développement web / applications, aux petits
                 programmes
@@ -245,7 +247,7 @@
 </main>
 
 <footer id="footer" class="acrylic-background">
-    <p>© <span id="copyrightYear"></span> ANTHONUS - Made with <a href="/mogus.html">ඞ</a></p>
+    <p>© <?= getCurrentYear() ?> ANTHONUS - Made with <a href="/mogus.html">ඞ</a></p>
     <div>
         <h4>Contacts :</h4>
         <ul>
@@ -266,6 +268,5 @@
 </footer>
 
 <script src="js/peak.js" defer></script>
-<script src="js/calculs.js"></script>
 </body>
 </html>
