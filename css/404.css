@@ -13,7 +13,7 @@
 }
 
 html, body {
-    height: 100%;  /* force le body à prendre toute la hauteur de la fenêtre */
+    height: 100%;
 }
 
 body {
