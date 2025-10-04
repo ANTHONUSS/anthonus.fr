@@ -390,6 +390,40 @@ footer.acrylic-background {
     border: none;
 }
 
+#cv_buttons_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#englishCV, #frenchCV {
+    margin: 20px 0;
+    background-color: #FFF;
+    color : black;
+
+    border: none;
+}
+#englishCV::before, #frenchCV::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    background-size: contain;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 3px;
+}
+#englishCV::before {
+    background-image: url("/assets/images/cv/en_flag.svg");
+}
+#frenchCV::before {
+    background-image: url("/assets/images/cv/fr_flag.svg");
+}
+
 #page {
     width: 21cm;
     height: 29.7cm;
