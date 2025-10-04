@@ -88,7 +88,7 @@
             <p>
                 Accédez à mon CV en ligne pour en savoir plus sur mon parcours, mes compétences et mes expériences.
             </p>
-            <a id="CV-button" class="button" href="/CV.html">Voir le CV</a>
+            <a id="CV-button" class="button" href="/cv.html">Voir le CV</a>
         </div>
 
     </section>

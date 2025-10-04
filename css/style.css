@@ -496,6 +496,12 @@ footer.acrylic-background {
         #mail::before {
             background-image: url("/assets/images/cv/mail.svg");
         }
+        #drive::before {
+            background-image: url("/assets/images/cv/car.svg");
+        }
+        #github::before {
+            background-image: url("/assets/images/cv/github.svg");
+        }
 
         ul {
             display: flex;
@@ -545,6 +551,10 @@ footer.acrylic-background {
             margin: 30px 0 20px 0;
         }
 
+        .h1_en {
+            font-size: 2.9rem;
+        }
+
         h2 {
             font-size: 2rem;
             margin-bottom: 10px;
@@ -566,7 +576,7 @@ footer.acrylic-background {
             justify-content: space-evenly;
             align-items: stretch;
 
-            margin-bottom: 20px;
+            margin-bottom: 10px;
 
 
             li {
@@ -610,6 +620,10 @@ footer.acrylic-background {
 
                     color: white;
                 }
+
+                .p_en {
+                    font-size: 0.86rem;
+                }
             }
 
             li:nth-child(1) {
@@ -640,6 +654,7 @@ footer.acrylic-background {
                 font-size: 1.1rem;
                 margin-bottom: 10px;
                 padding-left: 40px;
+                padding-right: 20px;
                 position: relative;
 
                 text-align: justify;

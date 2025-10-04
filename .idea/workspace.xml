@@ -6,28 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6bb2b24-9ed8-4a6f-84af-5e81eaa25c22" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/Assistant.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/Assistant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/bots.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/bots.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/end_forest.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/end_forest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/phone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/ps2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/ps2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/ruins_tree_night.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/ruins_tree_night.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/site.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/site.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/CV/textWorld.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/textWorld.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/CustomAssistant.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/CustomAssistant.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/DiscordBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/DiscordBackground.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/FindTheLuigi.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/FindTheLuigi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/Github.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/Github.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/HappyVirus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/HappyVirus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/LOGs.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/LOGs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/Noob-Bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/Noob-Bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/PickUpTools.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/PickUpTools.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/SymLinkCreator.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/SymLinkCreator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/anthonus-bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/anthonus-bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/Projects/textworld.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/textworld.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/CV-Dechaumet-Anthony.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/CV-Dechaumet-Anthony.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cv/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cv/mail.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -74,24 +55,24 @@
     "RunOnceActivity.git.unshallow": "true",
     "Shell Script.Start Server.executor": "Run",
     "Shell Script.Start WebServer.executor": "Debug",
-    "git-widget-placeholder": "php",
-    "last_opened_file_path": "C:/Users/ANTHONUS/MyFolder/Projets/anthonus.fr/site",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ANTHONUS/MyFolder/Projets/anthonus.fr/site/tmp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\tmp" />
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\cv" />
+      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site" />
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\CV" />
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\fonts" />
-      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\Projects" />
-      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\Assets\Images\CV" />
-      <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\Assets\Images\Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ANTHONUS\MyFolder\Projets\anthonus.fr\site\assets\images\CV" />
@@ -100,7 +81,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="start PHPServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" host="192.168.1.176" port="8080">
+    <configuration name="start PHPServer" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
   </component>
@@ -144,7 +125,8 @@
       <workItem from="1758986319198" duration="11000" />
       <workItem from="1758986384440" duration="242000" />
       <workItem from="1758988018433" duration="654000" />
-      <workItem from="1759002654297" duration="2214000" />
+      <workItem from="1759002654297" duration="3556000" />
+      <workItem from="1759565358491" duration="2347000" />
     </task>
     <servers />
   </component>
